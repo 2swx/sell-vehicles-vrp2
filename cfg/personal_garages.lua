@@ -5,7 +5,8 @@ cfg.force_out_fee = 1500
 
 cfg.garage_ptypes = {
 ["Personal"] = { --Add all personal garage cars
-	["blista"] = {"Blista", 15000, ""},
+  _config = {map_entity = {"PoI", {vtype = "car", blip_id = 357, blip_color = 26, marker_id = 1, scale = {4.0,4.0,1.0},color={5, 229, 246,125} }}},		
+    ["blista"] = {"Blista", 15000, ""},
     ["brioso"] = {"Brioso R/A", 155000, ""},
     ["dilettante"] = {"Dilettante", 25000, ""},
     ["issi2"] = {"Issi", 18000, ""},
